@@ -1,6 +1,6 @@
 nav {
     color: #fff;
-    background-image: url(pontBercyNuit.jpg);
+    background-image: url(Bercy.jpg);
     background-repeat:no-repeat;
     background-size : cover;
     margin : 0;
@@ -8,12 +8,11 @@ nav {
     height:40vh;
     line-height: 40vh;
   }
-  html {
-    background:url(fond-metro.jpg) repeat;
-    -webkit-background-size: auto; 
-    -moz-background-size: auto; 
-    -ms-background-size: auto; 
-    -o-background-size: auto; 
-    background-size: auto;
+  body {
+    color:black;
+    background-color:white;
+    background-image:url(Quais.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
     }
  

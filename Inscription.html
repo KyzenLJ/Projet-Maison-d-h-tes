@@ -15,11 +15,18 @@
     <body>
             <nav>
                     <div class="nav-wrapper">
-                      <a href="#" class="brand-logo">C'est ici que les choses sérieuses commencent !</a>
+                      <a href="#" class="brand-logo">Réservation</a>
+                      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                       <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="MainPage.html">Présentation des lieux</a></li>
-                        <li><a href="PresentationRegion.html">La Région</a></li>
+                        <li><a href="MainPage.html">La maison</a></li>
+                        <li><a href="PresentationRegion.html">La région</a></li>
+                        <li><a href="Inscription.html">Réservation</a></li>
                       </ul>
+                      <ul class="side-nav" id="mobile-demo">
+                          <li><a href="MainPage.html">La maison</a></li>
+                          <li><a href="PresentationRegion.html">La région</a></li>
+                          <li><a href="Inscription.html">Réservation</a></li>
+                        </ul>
                     </div>
                   </nav>
         <p>Merci de remplir les champs suivants afin de venir vivre une expérience hors du commun...</p>
@@ -27,7 +34,7 @@
  Un bouton estimation du prix
  Un bouton envoi du formulaire-->
 <div class="row">
-    <form class="col s12 m9 l6 ">
+    <form method="post" action="traitement.php" class="col s12 m9 l6 ">
       <div class="row">
         <div class="input-field col s6">
          <i class="material-icons prefix">person</i>   
